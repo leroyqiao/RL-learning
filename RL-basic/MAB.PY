@@ -1,3 +1,4 @@
+#创建老虎机
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -18,4 +19,5 @@ K = 10 #臂的数量
 bandit_10_arm = BernoulliBandit(K) #创建一个10臂的BernoulliBandit对象
 print("随机生成了一个%d臂的伯努利老虎机" % K)
 print("获奖概率最大的拉杆为%d，获奖概率为%.2f" % (bandit_10_arm.best_idx, bandit_10_arm.best_prob))
+
 
